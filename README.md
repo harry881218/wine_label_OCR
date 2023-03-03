@@ -3,7 +3,7 @@ Project 1 for Applied Computer Vision
 
 ### Usage
 To run inferencing with models:
-1. Download the models
+1. Download the models here: https://drive.google.com/drive/folders/1NFCKjtOrbyJo-pptLsnAZo2_RrEA90ZQ?usp=share_link
 2. Install EasyOCR by `pip install EasyOCR`
 3. Place the models in model path, which by default is `~/.EasyOCR/model`
 4. Place the corresponding .py and .yaml files in wine_label_config in `~/.EasyOCR/user_networks`
@@ -18,3 +18,12 @@ To run inferencing with models:
     6. Run txt_to_csv twice. First for the commented part and second for the uncommented part. After that your labels file should be in csv format
 7. Move your data to the location you prefer and modify the path in wine_label_demo.ipynb.
 8. Run wine_label_demo.ipynb. The general-purpose model will be automatically downloaded for you after running the second cell.
+
+### Some results
+<div style="display:flex;">
+ <img src="https://github.com/harry881218/wine_label_OCR/blob/main/1.png" height='250'>
+ <img src="https://github.com/harry881218/wine_label_OCR/blob/main/2.png" height='250'>
+ <img src="https://github.com/harry881218/wine_label_OCR/blob/main/3.png" height='250'>
+ <img src="https://github.com/harry881218/wine_label_OCR/blob/main/5.png" height='250'>
+ <img src="https://github.com/harry881218/wine_label_OCR/blob/main/6.png" height='250'>
+ </div>
